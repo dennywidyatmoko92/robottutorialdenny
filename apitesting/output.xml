@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.7 on win32)" generated="20210506 17:16:08.308" rpa="false">
+<suite id="s1" name="Apitesting" source="C:\Users\dennypc\eclipse-workspace\apitesting">
+<suite id="s1-s1" name="Simplebooks" source="C:\Users\dennypc\eclipse-workspace\apitesting\simplebooks.robot">
+<test id="s1-s1-t1" name="TC_Register">
+<kw name="Create Session" library="RequestsLibrary">
+<doc>Create Session: create a HTTP session to a server</doc>
+<arguments>
+<arg>addData</arg>
+<arg>${Base_URL}</arg>
+</arguments>
+<msg timestamp="20210506 17:16:08.606" level="INFO">Creating Session using : alias=addData, url=http://simple-books-api.glitch.me, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20210506 17:16:08.605" endtime="20210506 17:16:08.607"></status>
+</kw>
+<kw name="Create Dictionary" library="BuiltIn">
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<arguments>
+<arg>clientName=dennywidyatmoko</arg>
+<arg>clientEmail=widywidy@gmail.com</arg>
+</arguments>
+<assign>
+<var>${body}</var>
+</assign>
+<msg timestamp="20210506 17:16:08.608" level="INFO">${body} = {'clientName': 'dennywidyatmoko', 'clientEmail': 'widywidy@gmail.com'}</msg>
+<status status="PASS" starttime="20210506 17:16:08.607" endtime="20210506 17:16:08.608"></status>
+</kw>
+<kw name="Post On Session" library="RequestsLibrary">
+<doc>Sends a POST request on a previously created HTTP Session.</doc>
+<arguments>
+<arg>addData</arg>
+<arg>/api-clients</arg>
+<arg>data=${body}</arg>
+</arguments>
+<assign>
+<var>${response}</var>
+</assign>
+<msg timestamp="20210506 17:16:09.290" level="INFO">POST Request : url=http://simple-books-api.glitch.me/api-clients 
+ path_url=/api-clients 
+ headers={'User-Agent': 'python-requests/2.25.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '59', 'Content-Type': 'application/x-www-form-urlencoded'} 
+ body=clientName=dennywidyatmoko&amp;clientEmail=widywidy%40gmail.com 
+ </msg>
+<msg timestamp="20210506 17:16:09.291" level="INFO">POST Response : url=http://simple-books-api.glitch.me/api-clients 
+ status=400, reason=Bad Request 
+ headers={'Date': 'Thu, 06 May 2021 10:16:14 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '43', 'Connection': 'keep-alive', 'x-powered-by': 'Express', 'etag': 'W/"2b-l89yYcoVfVJGBAfpD4IpCK5y/wA"'} 
+ body={"error":"Invalid or missing client name."} 
+ </msg>
+<msg timestamp="20210506 17:16:09.300" level="FAIL">HTTPError: 400 Client Error: Bad Request for url: http://simple-books-api.glitch.me/api-clients</msg>
+<status status="FAIL" starttime="20210506 17:16:08.608" endtime="20210506 17:16:09.301"></status>
+</kw>
+<status status="FAIL" starttime="20210506 17:16:08.605" endtime="20210506 17:16:09.303" critical="yes">HTTPError: 400 Client Error: Bad Request for url: http://simple-books-api.glitch.me/api-clients</status>
+</test>
+<status status="FAIL" starttime="20210506 17:16:08.412" endtime="20210506 17:16:09.308"></status>
+</suite>
+<status status="FAIL" starttime="20210506 17:16:08.364" endtime="20210506 17:16:09.323"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Apitesting">Apitesting</stat>
+<stat pass="0" fail="1" id="s1-s1" name="Simplebooks">Apitesting.Simplebooks</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20210506 17:16:08.592" level="ERROR">Error in file 'C:\Users\dennypc\eclipse-workspace\apitesting\simplebooks.robot': Importing test library 'JsonLibrary' failed: ModuleNotFoundError: No module named 'JsonLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\node\Lib\site-packages
+  C:\Users\dennypc\eclipse-workspace\apitesting
+  C:\node\python37.zip
+  C:\node\DLLs
+  C:\node\lib
+  C:\node
+  C:\node\lib\site-packages</msg>
+</errors>
+</robot>

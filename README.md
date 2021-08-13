@@ -1,3 +1,14 @@
+Eclipse
+Version: 2019-03 (4.11.0)
+Build id: 20190314-1200
+
+https://drive.google.com/file/d/1txM8bflwPQ34T3lb9qOQEwoOq4u9XA1q/view?usp=sharing
+
+Python
+Python 3.7.7
+
+
+Library
 C:\Users\dennypc>pip list
 Package                        Version
 ------------------------------ ---------
@@ -79,3 +90,6 @@ xlrd                           2.0.1
 zipp                           3.4.1
 zope.event                     4.5.0
 zope.interface                 5.4.0
+
+
+

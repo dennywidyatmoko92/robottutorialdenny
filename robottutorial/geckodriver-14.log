@@ -1,0 +1,10 @@
+1628824300552	geckodriver	INFO	Listening on 127.0.0.1:65230
+1628824303633	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dennypc\\AppData\\Local\\Temp\\rust_mozprofilebRaUht"
+1628824304142	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dennypc\\AppData\\Local\\Temp\\rust_mozprofilebRaUht\\search.json.mozlz4", (void 0)))
+1628824307556	Marionette	INFO	Listening on port 60499
+1628824307894	Marionette	WARN	TLS certificate errors will be ignored for this session
+1628824316857	Marionette	INFO	Stopped listening on port 60499
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+

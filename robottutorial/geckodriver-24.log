@@ -1,0 +1,15 @@
+1628833267935	geckodriver	INFO	Listening on 127.0.0.1:51206
+1628833271016	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\dennypc\\AppData\\Local\\Temp\\rust_mozprofileGIYZ6b"
+*** You are running in headless mode.
+1628833271924	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dennypc\\AppData\\Local\\Temp\\rust_mozprofileGIYZ6b\\search.json.mozlz4", (void 0)))
+1628833273828	Marionette	INFO	Listening on port 64978
+1628833274191	Marionette	WARN	TLS certificate errors will be ignored for this session
+1628833281051	Marionette	INFO	Stopped listening on port 64978
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

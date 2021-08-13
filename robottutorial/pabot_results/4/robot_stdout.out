@@ -1,0 +1,26 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Setupteardown                                                          
+==============================================================================
+open browser
+komentar                                                              login dulu
+kirim komentar
+logut dulu
+| PASS |
+------------------------------------------------------------------------------
+vote up                                                               login dulu
+vote up
+logut dulu
+| PASS |
+------------------------------------------------------------------------------
+close browser
+Suites.Setupteardown                                                  | PASS |
+2 critical tests, 2 passed, 0 failed
+2 tests total, 2 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+2 critical tests, 2 passed, 0 failed
+2 tests total, 2 passed, 0 failed
+==============================================================================
+Output:  C:\Users\dennypc\eclipse-workspace\robottutorial\pabot_results\4\output.xml

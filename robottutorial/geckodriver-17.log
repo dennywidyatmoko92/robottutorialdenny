@@ -1,0 +1,19 @@
+1628826184140	geckodriver	INFO	Listening on 127.0.0.1:51040
+1628826187238	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\dennypc\\AppData\\Local\\Temp\\rust_mozprofileRHWdMe"
+*** You are running in headless mode.
+1628826187719	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dennypc\\AppData\\Local\\Temp\\rust_mozprofileRHWdMe\\search.json.mozlz4", (void 0)))
+1628826189609	Marionette	INFO	Listening on port 65153
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x39009A,name=PContent::Msg_InitBackground) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x39009A,name=PContent::Msg_InitBackground) Channel closing: too late to send/recv, messages will be lost
+
+1628826189914	Marionette	WARN	TLS certificate errors will be ignored for this session
+1628826193783	Marionette	INFO	Stopped listening on port 65153
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

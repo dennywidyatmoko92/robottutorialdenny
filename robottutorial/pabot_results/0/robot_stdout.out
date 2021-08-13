@@ -1,0 +1,21 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.DDT                                                                    
+==============================================================================
+Right user empty pass                                                 | PASS |
+------------------------------------------------------------------------------
+Right user wrong pass                                                 | PASS |
+------------------------------------------------------------------------------
+Rigth user right pass                                                 | FAIL |
+Page should have contained text 'Login was unsuccessful' but did not.
+------------------------------------------------------------------------------
+Suites.DDT                                                            | FAIL |
+3 critical tests, 2 passed, 1 failed
+3 tests total, 2 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+3 critical tests, 2 passed, 1 failed
+3 tests total, 2 passed, 1 failed
+==============================================================================
+Output:  C:\Users\dennypc\eclipse-workspace\robottutorial\pabot_results\0\output.xml

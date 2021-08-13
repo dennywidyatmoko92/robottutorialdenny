@@ -1,0 +1,20 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.DDT Excel                                                              
+==============================================================================
+LoginTestWithExcel using admin@yourstore.com and adm                  | PASS |
+------------------------------------------------------------------------------
+LoginTestWithExcel using adm@yourstore.com and admin                  | PASS |
+------------------------------------------------------------------------------
+LoginTestWithExcel using adm@yourstore.com and adm                    | PASS |
+------------------------------------------------------------------------------
+Suites.DDT Excel                                                      | PASS |
+3 critical tests, 3 passed, 0 failed
+3 tests total, 3 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+3 critical tests, 3 passed, 0 failed
+3 tests total, 3 passed, 0 failed
+==============================================================================
+Output:  C:\Users\dennypc\eclipse-workspace\robottutorial\pabot_results\1\output.xml

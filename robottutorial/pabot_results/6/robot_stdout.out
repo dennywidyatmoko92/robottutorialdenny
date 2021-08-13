@@ -1,0 +1,30 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Tagging                                                                
+==============================================================================
+TC1 user registration                                                 this is user registration
+user registration test is over
+| PASS |
+------------------------------------------------------------------------------
+TC2 Login test                                                        this is login test
+login test is over
+| PASS |
+------------------------------------------------------------------------------
+TC3 change user setting                                               this is changing user setting test
+change user setting is over
+| PASS |
+------------------------------------------------------------------------------
+TC4 Logout Test                                                       this is logout test
+logout test is over
+| PASS |
+------------------------------------------------------------------------------
+Suites.Tagging                                                        | PASS |
+4 critical tests, 4 passed, 0 failed
+4 tests total, 4 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+4 critical tests, 4 passed, 0 failed
+4 tests total, 4 passed, 0 failed
+==============================================================================
+Output:  C:\Users\dennypc\eclipse-workspace\robottutorial\pabot_results\6\output.xml

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.7.7 on win32)" generated="20210813 12:10:48.624" rpa="false">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Setupteardown" source="C:\Users\dennypc\eclipse-workspace\robottutorial\setupteardown.robot">
+<kw name="Log To Console" library="BuiltIn" type="setup">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>open browser</arg>
+</arguments>
+<status status="PASS" starttime="20210813 12:10:48.677" endtime="20210813 12:10:48.678"></status>
+</kw>
+<test id="s1-s1-t1" name="komentar">
+<kw name="Log To Console" library="BuiltIn" type="setup">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>login dulu</arg>
+</arguments>
+<status status="PASS" starttime="20210813 12:10:48.679" endtime="20210813 12:10:48.679"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>kirim komentar</arg>
+</arguments>
+<status status="PASS" starttime="20210813 12:10:48.680" endtime="20210813 12:10:48.680"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn" type="teardown">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>logut dulu</arg>
+</arguments>
+<status status="PASS" starttime="20210813 12:10:48.680" endtime="20210813 12:10:48.681"></status>
+</kw>
+<status status="PASS" starttime="20210813 12:10:48.678" endtime="20210813 12:10:48.681" critical="yes"></status>
+</test>
+<test id="s1-s1-t2" name="vote up">
+<kw name="Log To Console" library="BuiltIn" type="setup">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>login dulu</arg>
+</arguments>
+<status status="PASS" starttime="20210813 12:10:48.707" endtime="20210813 12:10:48.707"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>vote up</arg>
+</arguments>
+<status status="PASS" starttime="20210813 12:10:48.708" endtime="20210813 12:10:48.708"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn" type="teardown">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>logut dulu</arg>
+</arguments>
+<status status="PASS" starttime="20210813 12:10:48.708" endtime="20210813 12:10:48.709"></status>
+</kw>
+<status status="PASS" starttime="20210813 12:10:48.706" endtime="20210813 12:10:48.709" critical="yes"></status>
+</test>
+<kw name="Log To Console" library="BuiltIn" type="teardown">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>close browser</arg>
+</arguments>
+<status status="PASS" starttime="20210813 12:10:48.710" endtime="20210813 12:10:48.710"></status>
+</kw>
+<status status="PASS" starttime="20210813 12:10:48.674" endtime="20210813 12:10:48.710"></status>
+</suite>
+<status status="PASS" starttime="20210813 12:10:48.637" endtime="20210813 12:10:48.712"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0">Critical Tests</stat>
+<stat pass="2" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" id="s1" name="Suites">Suites</stat>
+<stat pass="2" fail="0" id="s1-s1" name="Setupteardown">Suites.Setupteardown</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

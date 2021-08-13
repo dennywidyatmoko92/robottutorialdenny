@@ -1,0 +1,11 @@
+datasources:6159c0b49738789b74969eb8596022945e0ea9e5
+commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
+suitesfrom:no-suites-from-option
+file:c62144dacbd214a6a1a82a6c81653855cadcaf81
+--suite Suites.DDT
+--suite Suites.DDT Excel
+--suite Suites.Getlinkcount
+--suite Suites.Loop
+--suite Suites.Setupteardown
+--suite Suites.Table
+--suite Suites.Tagging
